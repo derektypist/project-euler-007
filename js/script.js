@@ -8,9 +8,9 @@ function getNumberInfo() {
     if (isNaN(num) || num.toString().length == 0 || num < 1 || num > 100000 || !Number.isInteger(Number(num))) {
         txt += `Invalid Input.  Please enter a whole number between 1 and 100000.`;
     } else {
-        txt += `You have entered the number ${num}`;
+        txt += `You have entered the number ${num}. <p>`;
         let nth = (num % 10 == 1) ? 'st' : (num % 10 == 2) ? 'nd' : (num % 10 == 3) ? 'rd' : 'th';
-        txt += `The ${num}${nth} prime number is ${nthPrime(num)}`;
+        txt += `The ${num}${nth} prime number is ${nthPrime(num)}.`;
     }
 
     // Display Information in the Browser
