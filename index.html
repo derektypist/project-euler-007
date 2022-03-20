@@ -19,7 +19,30 @@
     <!-- Set Up Instructions -->
     <section class="container-fluid instructions">
         <p>By listing the first six prime numbers: 2, 3, 5, 7, 11 and 13, we can see that the 6th prime is 13.</p>
-        <p>Find the 10001st Prime Number as well as the Nth Prime Number.</p>
+        <p>Find the 10001st Prime Number as well as the nth Prime Number.</p>
+    </section>
+
+    <!-- Set Up Form -->
+    <section class="container-fluid">
+        <form>
+            <!-- Set Up Label and Input -->
+            <article class="mb-3">
+                <label for="mynumber" class="form-label">Number (Required)</label>
+                <input class="form-control" placeholder="Enter whole number between 1 and 100000 (e.g. 10001)" title="Enter whole number between 1 and 100000 (e.g. 10001)" id="mynumber" />
+            </article>
+
+            <!-- Set Up and Center Buttons -->
+            <article class="d-grid gap-2 d-flex justify-content-center">
+                <button type="button" onclick="getNumberInfo()" class="btn btn-info">Submit</button>
+                <button type="reset" onclick="clearInfo()" class="btn btn-warning">Reset</button>
+            </article>
+        </form>
+
+        <!-- Display Number Information -->
+        <p id="numinfo"></p>
+
+        <!-- Load Script -->
+        <script src="js/script.js"></script>
     </section>
 </body>
 </html>
