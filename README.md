@@ -35,3 +35,29 @@ As a user, I expect the function `nthPrime(10001)` to return 104743.
 
 The function `nthPrime(n)` returns a number (integer), where `n` is a number between 1 and 100000.
 
+## Features
+
+Allows the user to enter the number (position) as well as getting the prime number in this position.  Performs checks to ensure the input is valid.  If the input is not valid, an error message is displayed.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.1.3 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-007) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
